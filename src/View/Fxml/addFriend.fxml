@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="background" prefHeight="400.0" prefWidth="600.0" stylesheets="@CSS/SearchFriend.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="47.0" prefWidth="260.0" text="Search For Friend" textFill="#8814da">
+         <font>
+            <Font name="Rage Italic" size="35.0" />
+         </font>
+      </Label>
+      <TextField id="textInput" layoutX="216.0" layoutY="62.0" prefHeight="48.0" prefWidth="385.0" promptText="输入要查找的账号">
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </TextField>
+      <ListView id="friendList" layoutX="131.0" layoutY="133.0" prefHeight="200.0" prefWidth="470.0" />
+   </children>
+</AnchorPane>

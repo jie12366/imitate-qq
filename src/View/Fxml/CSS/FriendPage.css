@@ -1,0 +1,185 @@
+#quit1 {
+    -fx-background-image: url("Image/quit2.png");
+    -fx-background-position: center center;
+    -fx-background-size:18px 18px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+}
+
+#quit1:hover {
+    -fx-background-image: url("Image/quit.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #ff6103;
+    -fx-cursor: hand;
+}
+#quit1:pressed {
+    -fx-background-image: url("Image/quit.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #ff6103;
+    -fx-cursor: hand;
+}
+
+#minimiser1 {
+
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:hover {
+
+    -fx-background-image: url("Image/minimiser.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:pressed {
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+#friendPage
+{
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-color: white;
+}
+#Mask{
+
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+
+}
+#head,#head:hover,#head:pressed,#head:focused{
+
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-background-size: 98px 92px;
+    -fx-background-color:transparent;
+    -fx-background-image: url("Image/head/head9.jpg");
+    -fx-background-position: center center;
+}
+#background{
+    -fx-background-color:transparent;
+    -fx-background-size: 395px 127px;
+    -fx-background-image: url("Image/background/background13.jpg");
+    -fx-background-repeat: no-repeat;
+}
+#label,#label:hover,#label:focused{
+    -fx-border-color: white;
+    -fx-background-radius: 0px;
+    -fx-alignment:center;
+    -fx-background-color: white;
+}
+#name,#age,#address,#sex,#phone
+{
+    -fx-background-radius: 0px;
+    -fx-border-color:white;
+    -fx-background-color: white;
+}
+#age{
+    -fx-background-image: url("Image/age.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#name{
+    -fx-background-image: url("Image/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#address
+{
+    -fx-background-image: url("Image/address.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#sex
+{
+    -fx-background-image: url("Image/sex.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#phone{
+    -fx-background-image: url("Image/phone.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#name:hover,#age:hover,#sex:hover,#address:hover,#phone:hover
+{
+    -fx-background-radius: 0px;
+    -fx-border-color:white;
+    -fx-background-color: white;
+}
+#name:focused,#age:focused,#sex:focused,#address:focused,#phone:focused
+{
+    -fx-background-radius: 0px;
+    -fx-border-color:white;
+    -fx-background-color: white;
+}
+#info{
+
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-background-color: white;
+
+}
+
+#account{
+    -fx-alignment:center;
+}
+#remark,#remark:hover,#remark:pressed,#remark:focused{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-background-radius: 0px;
+    -fx-text-fill: rgb(180,180,180);
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 17px;
+
+}
+#edit{
+
+    -fx-background-color:transparent;
+    -fx-background-image: url("Image/edit1.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 18px 18px;
+    -fx-background-position :center;
+}
+#edit:hover,#edit:pressed{
+    -fx-background-color:transparent;
+    -fx-background-image: url("Image/edit2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 18px 18px;
+    -fx-background-position :center;
+    -fx-cursor: hand;
+}
+#submit{
+    -fx-background-color:deepskyblue;
+}
+#submit:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#submit:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}

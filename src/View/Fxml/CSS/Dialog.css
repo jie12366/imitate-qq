@@ -1,0 +1,183 @@
+#register,#getBack{
+    -fx-cursor: hand;
+    -fx-border-style: none;
+    -fx-border-width: 0;
+    -fx-border-radius:0;
+    -fx-background-color: rgba(255,255,255,0);
+}
+#Mgif{
+    -fx-background-image: url("Image/hi.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:rgba(255,255,255,0);
+    -fx-background-size :130px 130px;
+}
+#register:hover,#getBack:hover{
+
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-font-color:#292421;
+}
+#register:pressed,#getBack:pressed
+{
+
+    -fx-background-color: rgba(255,255,255,0);
+}
+#UserName,#Password{
+
+     -fx-background-radius: 20px;
+     -fx-background-color: white;
+     -fx-border-radius: 20px;
+     -fx-border-color: transparent;
+}
+#UserName{
+
+    -fx-background-image: url("Image/user1.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#Password{
+    -fx-background-image: url("Image/lock.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#UserName:hover{
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color:transparent;
+}
+#Password:hover{
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+}
+#UserName:focused
+{
+    -fx-background-image: url("Image/user2.png");
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+
+}
+#Password:focused
+{
+    -fx-background-image: url("Image/unlock.png");
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+
+}
+#icon{
+    -fx-background-image: url("Image/chat.png");
+        -fx-background-color: transparent;
+        -fx-border-color: transparent;
+}
+#enter
+{
+    -fx-background-color:deepskyblue;
+    -fx-cursor: hand;
+}
+#enter:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#enter:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}
+#background{
+    -fx-background-image:url("Image/login.gif");
+    -fx-background-size:600px 240px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:-50px ;
+}
+#I_login1{
+    -fx-background-image:url("Image/no.png");
+        -fx-background-size:16px 16px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+        -fx-background-position:center;
+}
+#I_login1:hover{
+    -fx-background-image:url("Image/no1.png");
+        -fx-background-size:16px 16px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+        -fx-background-position:center;
+}
+#I_login{
+    -fx-background-image:url("Image/yes1.png");
+            -fx-background-size:16px 16px;
+            -fx-background-repeat: no-repeat;
+            -fx-background-color:transparent;
+            -fx-background-position:center;
+}
+#save_pass1{
+    -fx-background-image:url("Image/no.png");
+        -fx-background-size:16px 16px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+        -fx-background-position:center;
+}
+#save_pass{
+    -fx-background-image:url("Image/yes1.png");
+        -fx-background-size:16px 16px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+        -fx-background-position:center;
+}
+#save_pass1:hover{
+    -fx-background-image:url("Image/no1.png");
+        -fx-background-size:16px 16px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+        -fx-background-position:center;
+}
+#head{
+    -fx-background-image:url("Image/head/head9.jpg");
+    -fx-background-size:100px 100px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:transparent;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+}
+#Dialog{
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+}
+#mini{
+    -fx-background-image:url("Image/mini2.png");
+        -fx-background-size:28px 28px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-position:center;
+        -fx-background-color:transparent;
+}
+#mini:hover,mini:pressed{
+    -fx-background-image:url("Image/mini3.png");
+        -fx-background-size:28px 28px;
+        -fx-background-repeat: no-repeat;
+                -fx-background-position:center;
+        -fx-background-color:rgb(241,241,241,0.5);
+        -fx-focused:hand;
+}
+#close{
+    -fx-background-image:url("Image/close.png");
+        -fx-background-size:18px 18px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+                -fx-background-position:center;
+}
+#close:hover,close:pressed{
+    -fx-background-image:url("Image/close.png");
+        -fx-background-size:21px 21px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:#ff5438;
+                -fx-background-position:center;
+    -fx-focused:hand;
+}

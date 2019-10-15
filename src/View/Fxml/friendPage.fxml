@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="friendPage" prefHeight="502.0" prefWidth="392.0" stylesheets="@CSS/FriendPage.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="background" prefHeight="127.0" prefWidth="393.0">
+         <children>
+            <Button id="quit1" layoutX="356.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+         </children></Pane>
+      <TextField id="phone" editable="false" layoutY="458.0" prefHeight="38.0" prefWidth="321.0">
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </TextField>
+      <TextField id="name" editable="false" layoutY="314.0" prefHeight="36.0" prefWidth="321.0">
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </TextField>
+      <TextField id="age" editable="false" layoutY="350.0" prefHeight="38.0" prefWidth="321.0">
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </TextField>
+      <TextField id="sex" editable="false" layoutY="386.0" prefHeight="38.0" prefWidth="321.0">
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </TextField>
+      <TextField id="address" editable="false" layoutY="422.0" prefHeight="38.0" prefWidth="321.0">
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </TextField>
+      <Button id="head" layoutX="153.0" layoutY="79.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="98.0" />
+      <Label id="account" layoutX="154.0" layoutY="171.0" prefHeight="24.0" prefWidth="98.0" textFill="#808a87" />
+      <Label layoutX="23.0" layoutY="257.0" prefHeight="36.0" prefWidth="41.0" text="备注:" textFill="#808a87" />
+      <TextField id="remark" editable="false" layoutX="75.0" layoutY="256.0" prefHeight="12.0" prefWidth="243.0" promptText="给好友备注一下吧">
+         <font>
+            <Font size="19.0" />
+         </font></TextField>
+      <TextField id="label" editable="false" layoutY="203.0" prefHeight="38.0" prefWidth="393.0" promptText="这个人很懒，什么也没留下" />
+      <Button id="edit" layoutX="312.0" layoutY="258.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="37.0" />
+      <Button id="submit" layoutX="331.0" layoutY="314.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="61.0" text="完成" />
+   </children>
+</AnchorPane>

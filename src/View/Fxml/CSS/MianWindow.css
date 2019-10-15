@@ -1,0 +1,663 @@
+
+#quit1{
+    -fx-background-image: url("Image/close1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-size :16px 16px;
+}
+#quit1:hover,#quit1:pressed
+{
+    -fx-background-image: url("Image/close.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #ff5438;
+    -fx-cursor: hand;
+}
+#minimiser1{
+
+    -fx-background-image: url("Image/mini1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-size :22px 22px;
+}
+#minimiser1:hover{
+
+    -fx-background-image: url("Image/mini2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgb(238,238,238);
+
+    -fx-cursor: hand;
+}
+#minimiser1:pressed{
+    -fx-background-image: url("Image/Icon/mini2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgb(238,238,238);
+    -fx-cursor: hand;
+}
+#left{
+        -fx-background-color: transparent;
+}
+#left:hover,left:pressed{
+    -fx-background-image: url("Image/left3.png");
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color: transparent;
+        -fx-cursor: hand;
+}
+
+#MainWindow{
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-border-color: rgb(180,180,180);
+    -fx-background-color: white;
+}
+#myName{
+    -fx-font-family:"Helvetica";
+    -fx-font-size:22px;
+}
+#myAccount{
+    -fx-alignment:center;
+}
+#myAddress{
+    -fx-font-family:"Helvetica";
+    -fx-font-size:22px;
+}
+#top_background{
+    -fx-background-image: url("Image/background/background20.jpg");
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-repeat: no-repeat;
+}
+#addFriend
+{
+    -fx-background-image: url("Image/Icon/addf.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-size :30px 30px;
+
+}
+#addFriend:hover
+{
+    -fx-background-image: url("Image/Icon/addf1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#addFriend:pressed
+{
+    -fx-background-image: url("Image/Icon/addf.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#setting
+{
+    -fx-background-image: url("Image/Icon/setting.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+    -fx-background-size :32px 32px;
+}
+#setting:hover
+{
+    -fx-background-image: url("Image/Icon/setting1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#setting:pressed
+{
+    -fx-background-image: url("Image/Icon/setting.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#myHead,#myHead:hover,#myHead:pressed {
+    -fx-background-radius: 200px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 150px 150px;
+    -fx-background-color: transparent;
+    -fx-background-image: url("Image/head/head10.jpg");
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-radius: 200px;
+    -fx-border-color:transparent;
+
+}
+
+#search
+{
+    -fx-background-size: 20px 20px;
+    -fx-background-image: url("Image/search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+    -fx-background-radius: 20px;
+    -fx-background-color: transparent
+
+}
+#search:hover
+{
+    -fx-background-radius: 20px;
+    -fx-background-color: rgba(255,255,255,0.5);
+
+}
+#search:focused
+{
+    -fx-background-radius: 20px;
+    -fx-background-color: rgba(255,255,255,0.6);
+
+
+}
+
+#ChatList{
+
+    -fx-background-image:url("Image/background/background18.jpg");
+    -fx-background-size:638px,390px;
+
+}
+#FriendList{
+    -fx-background-color: transparent;
+}
+#send{
+
+    -fx-background-color:#dfcb9a;
+    -fx-cursor: hand;
+}
+#quit2{
+
+    -fx-background-color:white;
+    -fx-border-color: #ebebeb;
+    -fx-cursor: hand;
+}
+#quit2:hover
+{
+    -fx-background-color:#efeff0;
+    -fx-cursor: hand;
+}
+#quit2:pressed{
+
+    -fx-background-color:#efeff0;
+    -fx-cursor: hand;
+}
+#send:hover
+{
+    -fx-background-color:aquamarine;
+    -fx-cursor: hand;
+}
+#send:pressed{
+
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+.sendMsg{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.sendMsg:hover{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.sendMsg:pressed{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.head{
+
+    -fx-background-radius: 1px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 46px 46px;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-background-image: url("Image/right1.png");
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-radius: 1px;
+    -fx-border-color:transparent;
+
+}
+.head:hover{
+    -fx-background-radius: 1px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-size: 46px 46px;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-radius: 1px;
+    -fx-border-color:transparent;
+}
+.head:pressed{
+    -fx-background-radius: 1px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-size: 46px 46px;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-radius: 1px;
+    -fx-border-color:transparent;
+}
+
+.ListItem{
+    -fx-background-color:transparent;
+    -fx-text-fill:black;
+}
+.pane{
+    -fx-background-radius: 0px;
+    -fx-background-color:rgba(255,255,255,0);
+}
+.outline{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-style: none;
+     -fx-background-image: url("Image/Icon/outline.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+
+}
+.online{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-style: none;
+    -fx-background-image: url("Image/Icon/online.png");
+    -fx-background-size: 15px 15px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+
+}
+#background,#background:hover,#background:focused{
+    -fx-border-width: 1px;
+    -fx-border-color: rgb(180,180,180);
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-size: 1198px 698px;
+    -fx-background-color: white;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+
+}
+
+#bgPane{
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+#FriendList{
+    -fx-background-color: transparent;
+}
+#FriendList .list-cell {
+    -fx-background-color: #ffecdb;
+    -fx-text-fill: black;
+}
+
+#FriendList .list-cell:selected{
+    -fx-background-color: rgba(180,180,180,0.5);
+    -fx-text-fill: black;
+}
+#ChatList .list-cell {
+    -fx-background-color: transparent;
+}
+#ChatList
+{
+    -fx-background-color:white;
+}
+.cell2{
+    -fx-background-image:url("Image/long1.png");
+    -fx-background-size:44px 41px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell4{
+    -fx-background-image:url("Image/long2.png");
+    -fx-background-size:38px 30px;
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell6{
+    -fx-background-size:42px 41px;
+    -fx-background-image:url("Image/long3.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell8{
+    -fx-background-size:40px 30px;
+    -fx-background-image:url("Image/long4.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell22{
+    -fx-background-image:url("Image/long1.png");
+    -fx-background-size:44px 41px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell44{
+    -fx-background-image:url("Image/long2.png");
+    -fx-background-size:38px 30px;
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell21{
+    -fx-background-image:url("Image/long5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 25px;
+    -fx-background-color: transparent;
+}
+.cell22{
+    -fx-background-image:url("Image/long5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 50px;
+    -fx-background-color: transparent;
+}
+.cell23{
+    -fx-background-image:url("Image/long5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 75px;
+    -fx-background-color: transparent;
+}
+.cell43{
+    -fx-background-image:url("Image/long6.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 20px;
+    -fx-background-color: transparent;
+}
+.cell44{
+    -fx-background-image:url("Image/long6.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 40px;
+    -fx-background-color: transparent;
+}
+.cell45{
+    -fx-background-image:url("Image/long6.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 60px;
+    -fx-background-color: transparent;
+}
+.rightText{
+    -fx-background-color: #8bcc8f;
+    -fx-font-size: 16px;
+    -fx-font-family: Arial,Helvetica,sans-serif;
+    -fx-font-style: italic;
+    -fx-text-fill:black;
+
+}
+
+.cell1{
+    -fx-background-image:url("Image/bear1.png");
+    -fx-background-size:42px 27px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell3{
+    -fx-background-image:url("Image/bear3.png");
+    -fx-background-size:43px 37px;
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell5{
+    -fx-background-size:42px 24px;
+    -fx-background-image:url("Image/bear4.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell7{
+    -fx-background-size:48px 26px;
+    -fx-background-image:url("Image/bear2.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+.cell11{
+    -fx-background-image:url("Image/bear5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 25px;
+    -fx-background-color: transparent;
+}
+.cell12{
+    -fx-background-image:url("Image/bear5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 50px;
+    -fx-background-color: transparent;
+}
+.cell13{
+    -fx-background-image:url("Image/bear5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 75px;
+    -fx-background-color: transparent;
+}
+.cell33{
+    -fx-background-image:url("Image/bear6.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 20px;
+    -fx-background-color: transparent;
+}
+.cell34{
+    -fx-background-image:url("Image/bear6.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 40px;
+    -fx-background-color: transparent;
+}
+.cell35{
+    -fx-background-image:url("Image/bear6.png");
+    -fx-background-position:center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:42px 60px;
+    -fx-background-color: transparent;
+}
+.leftText{
+
+    -fx-control-inner-background:#7dc5eb;
+    -fx-control-inner-radius:5px;
+    -fx-background-color: #fff8ef;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 16px;
+    -fx-font-family: Arial,Helvetica,sans-serif;
+    -fx-font-style: italic;
+    -fx-text-fill:black;
+
+}
+
+.leftArrow{
+
+   -fx-background-image: url("Image/Icon/left.png");
+    -fx-background-size: 20px 20px;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+
+}
+.rightArrow{
+    -fx-background-image: url("Image/Icon/right.png");
+    -fx-background-size: 20px 20px;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+}
+.scroll-bar:horizontal,.scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.increment-button,.decrement-button{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-bar:horizontal .track,.scroll-bar:vertical .track{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color:transparent;
+
+}
+.scroll-bar:horizontal .thumb,.scroll-bar:vertical .thumb{
+
+    -fx-background-color:transparent;
+    -fx-background-radius:5px;
+
+}
+.scroll-bar:horizontal:hover .track,.scroll-bar:vertical:hover .track,.scroll-bar:horizontal:pressed .track,.scroll-bar:vertical:pressed .track
+{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color:transparent;
+
+}
+.scroll-bar:horizontal:hover .thumb,.scroll-bar:vertical:hover .thumb{
+
+    -fx-background-color: rgba(150,150,150,0.6);
+    -fx-background-radius:5px;
+
+}
+.scroll-bar:horizontal:pressed .thumb,.scroll-bar:vertical:pressed .thumb{
+
+    -fx-background-color: rgb(150,150,150);
+    -fx-background-radius:5px;
+
+}
+
+.increment-button:hover,.decrement-button:hover,.increment-button:pressed,.decrement-button:pressed{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.increment-arrow, .decrement-arrow{
+
+    -fx-shape: " ";
+    -fx-padding: 0px;
+
+}
+
+.MsgTip,.MsgTip:hover,.MsgTip:pressed{
+    -fx-background-radius: 20px;
+    -fx-background-color: deepskyblue;
+    -fx-text-fill: white;
+    -fx-font-size:18px;
+    -fx-padding:0px 0px 0px 6px;
+    -fx-text-alignment: center;
+}
+.no-MsgTip,.no-MsgTip:hover,.no-MsgTip:pressed{
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+}
+#input,#input:hover,#input:pressed,#input:focused{
+
+    -fx-background-color: white;
+    -fx-background-size: 30px 30px;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-background-radius: 0px;
+    -fx-text-fill: black;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 16px;
+
+
+
+}
+#emoji{
+        -fx-background-image: url("Image/emoji.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#emoji:hover,#emoji:pressed{
+        -fx-background-image: url("Image/emoji.png");
+       -fx-background-color: #f1f1f1;
+}
+
+#file{
+        -fx-background-image: url("Image/file.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#file:hover,#file:pressed{
+        -fx-background-image: url("Image/file.png");
+       -fx-background-color: #f1f1f1;
+}
+#image{
+        -fx-background-image: url("Image/image.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#image:hover,#image:pressed{
+        -fx-background-image: url("Image/image.png");
+       -fx-background-color: #f1f1f1;
+}
+#dou{
+        -fx-background-image: url("Image/dou.png");
+       -fx-background-color: transparent;
+       -fx-background-position: center;
+       -fx-background-repeat: no-repeat;
+       -fx-background-size: 20px 20px;
+}
+#dou:hover,#dou:pressed{
+        -fx-background-image: url("Image/dou.png");
+       -fx-background-color: #f1f1f1;
+}
+#Me{
+
+    -fx-background-color: deepskyblue;
+    -fx-background-radius: 2px;
+    -fx-border-width:1px;
+    -fx-border-color: deepskyblue;
+    -fx-border-radius: 2px;
+
+}
+#more{
+
+    -fx-background-color:transparent;
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+
+}
+#more:hover,#more:pressed{
+    -fx-underline: true;
+    -fx-text-fill: rgba(255,255,255,0.5);
+}
+#friendMore,#friendMore:pressed{
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-font-size:23px;
+    -fx-background-position: center center;
+    -fx-cursor: hand;
+
+}
+#friendMore:hover
+{
+    -fx-underline:true;
+}

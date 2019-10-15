@@ -1,0 +1,211 @@
+#mini{
+    -fx-background-image:url("Image/mini2.png");
+        -fx-background-size:23px 23px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-position:center;
+        -fx-background-color:transparent;
+}
+#mini:hover,mini:pressed{
+    -fx-background-image:url("Image/mini3.png");
+        -fx-background-size:20px 20px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-position:center;
+        -fx-focused:hand;
+}
+#close{
+    -fx-background-image:url("Image/close.png");
+        -fx-background-size:16px 16px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:transparent;
+                -fx-background-position:center;
+}
+#close:hover,close:pressed{
+    -fx-background-image:url("Image/close.png");
+        -fx-background-size:15px 15px;
+        -fx-background-repeat: no-repeat;
+        -fx-background-color:#ff6103;
+                -fx-background-position:center;
+    -fx-focused:hand;
+}
+#Homepage{
+
+    -fx-background-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-background-color: white;
+
+}
+#quit1 {
+    -fx-background-image: url("Image/quit2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#quit1:hover {
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#quit1:pressed {
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1 {
+
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:hover {
+
+    -fx-background-image: url("Image/minimiser.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:pressed {
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+#background,#background:hover,#background:focused{
+
+    -fx-border-width: 1px;
+    -fx-border-color: rgb(180,180,180);
+    -fx-background-radius: 2px;
+    -fx-border-radius: 2px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 672px 292px;
+    -fx-background-image: url("Image/background/background6.jpg");
+    -fx-background-position: center center;
+
+}
+
+#submit{
+    -fx-background-color:deepskyblue;
+}
+#submit:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#submit:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}
+#label{
+    -fx-background-radius: 0px;
+    -fx-text-fill:white;
+        -fx-background-color: transparent;
+}
+#head,#head:hover,#head:pressed,#head:focused{
+
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 65px;
+    -fx-border-radius: 65px;
+    -fx-background-size: 83px 83px;
+    -fx-background-image: url("Image/head/head10.jpg");
+    -fx-background-position: center center;
+    -fx-background-color:transparent;
+}
+#nickname{
+    -fx-background-color:transparent;
+    -fx-font-size:30px;
+    -fx-text-fill:white;
+}
+#Me{
+    -fx-background-color:#6a7160;
+}
+
+#account,#user,#address,#birth,#phone,#sex,#age
+{
+    -fx-background-radius: 0px;
+    -fx-border-color:white;
+    -fx-font-size:14px;
+    -fx-background-color: white;
+}
+#user{
+
+    -fx-background-image: url("Image/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#account{
+
+    -fx-background-image: url("Image/qq.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#birth{
+
+    -fx-background-image: url("Image/birthday.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#address
+{
+    -fx-background-image: url("Image/address.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#phone{
+    -fx-background-image: url("Image/phone.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 20px center;
+}
+#account:hover,#user:hover,#address:hover,#phone:hover,#birth:hover
+{
+    -fx-background-radius: 0px;
+    -fx-border-color:white;
+    -fx-background-color: white;
+}
+#account:focused,#user:focused,#address:focused,#phone:focused,#birth:focused
+{
+
+    -fx-background-radius: 0px;
+     -fx-border-color:white;
+   -fx-background-color: white;
+}
+#age{
+    -fx-background-color:transparent;
+}
+#sex{
+    -fx-background-color:transparent;
+}
+#information
+{
+    -fx-background-radius: 3px;
+    -fx-background-color: white;
+    -fx-border-color: rgb(180,180,180);
+    -fx-border-width: 1px;
+
+}
+#alter{
+
+    -fx-background-image: url("Image/Icon/alter.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-color:transparent;
+    -fx-background-position: center center;
+}
+#alter:hover,#alter:pressed{
+    -fx-background-color:#f1f1f1;
+    -fx-cursor: hand;
+}

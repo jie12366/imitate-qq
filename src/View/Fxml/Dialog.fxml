@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="Dialog" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="448.0" stylesheets="@CSS/Dialog.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField id="UserName" fx:id="UserName" layoutX="92.0" layoutY="223.0" prefHeight="30.0" prefWidth="264.0" promptText="请输入账号">
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="#a19f9fa1" height="11.22" radius="4.9725" width="10.67" />
+         </effect>
+         <padding>
+            <Insets left="35.0" />
+         </padding></TextField>
+      <PasswordField id="Password" fx:id="Password" layoutX="92.0" layoutY="273.0" prefHeight="30.0" prefWidth="264.0" promptText="请输入密码">
+         <effect>
+            <InnerShadow color="#aba7a7a4" height="11.34" radius="5.2524999999999995" width="11.67" />
+         </effect>
+         <padding>
+            <Insets left="35.0" />
+         </padding></PasswordField>
+      <Button id="register" layoutY="368.0" mnemonicParsing="false" text="立即注册" textFill="SILVER">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button id="getBack" layoutX="275.0" layoutY="311.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="80.0" text="忘记密码" textFill="SILVER">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button id="enter" layoutX="93.0" layoutY="351.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="264.0" text="登录" textFill="WHITE">
+         <effect>
+            <DropShadow color="#000000a1" height="11.0" radius="5.0" width="11.0" />
+         </effect>
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Label id="accountError" layoutX="114.0" layoutY="253.0" prefHeight="20.0" prefWidth="241.0" textFill="RED">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label id="passwordError" layoutX="110.0" layoutY="303.0" prefHeight="20.0" prefWidth="230.0" textFill="RED">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Pane id="background" prefHeight="153.0" prefWidth="448.0">
+         <children>
+            <Button id="mini" layoutX="373.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+            <Button id="close" layoutX="410.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+            <Label layoutX="70.0" layoutY="-3.0" prefHeight="66.0" prefWidth="100.0" text="Chat" textFill="WHITE">
+               <font>
+                  <Font name="Rage Italic" size="50.0" />
+               </font>
+            </Label>
+            <Label id="icon" prefHeight="56.0" prefWidth="71.0" />
+         </children></Pane>
+      <Button id="head" layoutX="175.0" layoutY="102.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" />
+      <Button id="save_pass" layoutX="176.0" layoutY="316.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="37.0" />
+      <Label layoutX="204.0" layoutY="317.0" prefHeight="24.0" prefWidth="62.0" text="记住密码" textFill="SILVER">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="114.0" layoutY="317.0" prefHeight="24.0" prefWidth="62.0" text="自动登录" textFill="SILVER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button id="I_login" layoutX="86.0" layoutY="316.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="37.0" />
+      <Button id="I_login1" layoutX="86.0" layoutY="316.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="37.0" />
+      <Button id="save_pass1" layoutX="176.0" layoutY="316.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="37.0" />
+   </children>
+</Pane>

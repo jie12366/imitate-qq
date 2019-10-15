@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="Forget" prefHeight="609.0" prefWidth="600.0" stylesheets="@CSS/Forget.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="157.0" layoutY="14.0" prefHeight="50.0" prefWidth="258.0" text="Reset  Password" textFill="#82bc36">
+         <font>
+            <Font name="Forte" size="35.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.56" topOpacity="0.72" />
+         </effect>
+      </Label>
+      <Label layoutX="68.0" layoutY="309.0" prefHeight="50.0" prefWidth="147.0" text="Confirm" textFill="#d33a3a">
+         <font>
+            <Font name="Rage Italic" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="370.0" prefHeight="55.0" prefWidth="165.0" text="Information" textFill="#d33a3a">
+         <font>
+            <Font name="Rage Italic" size="35.0" />
+         </font>
+      </Label>
+      <TextField id="account" layoutX="286.0" layoutY="151.0" prefHeight="38.0" prefWidth="281.0" promptText="请输入账号">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </TextField>
+      <Label id="passwordError" layoutX="316.0" layoutY="441.0" prefHeight="24.0" prefWidth="245.0" textFill="#f81818">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <TextField id="phone" layoutX="286.0" layoutY="286.0" prefHeight="38.0" prefWidth="281.0" promptText="输入手机号">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </TextField>
+      <TextField id="name" layoutX="286.0" layoutY="215.0" prefHeight="38.0" prefWidth="281.0" promptText="请输入姓名">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </TextField>
+      <Label id="phoneError" layoutX="316.0" layoutY="324.0" prefHeight="24.0" prefWidth="245.0" textFill="#eb1818">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Label id="nameError" layoutX="316.0" layoutY="253.0" prefHeight="24.0" prefWidth="245.0" textFill="#f81111">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Label id="accountError" layoutX="316.0" layoutY="189.0" prefHeight="24.0" prefWidth="245.0" textFill="#e41717">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Label id="rePasswordError" layoutX="316.0" layoutY="503.0" prefHeight="24.0" prefWidth="245.0" textFill="#e10e0e">
+         <font>
+            <Font size="12.0" />
+         </font></Label>
+      <Button id="cancel" layoutX="133.0" layoutY="544.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="取消" />
+      <Button id="reset" layoutX="415.0" layoutY="544.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="重置" />
+      <Button id="head" layoutX="70.0" layoutY="148.0" mnemonicParsing="false" prefHeight="123.0" prefWidth="123.0" />
+      <PasswordField id="password" layoutX="286.0" layoutY="406.0" prefHeight="38.0" prefWidth="281.0" promptText="请输入密码">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </PasswordField>
+      <PasswordField id="rePassword" layoutX="286.0" layoutY="465.0" prefHeight="38.0" prefWidth="281.0" promptText="请确认密码">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </PasswordField>
+      <TextField id="codeText" layoutX="286.0" layoutY="352.0" prefHeight="36.0" prefWidth="155.0" promptText="验证码">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </TextField>
+      <Button id="code" layoutX="444.0" layoutY="352.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="117.0" text="获取验证码" textFill="#7f11fc" />
+   </children>
+</AnchorPane>

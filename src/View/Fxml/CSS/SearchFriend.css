@@ -1,0 +1,208 @@
+#quit1 {
+    -fx-background-image: url("Image/quit2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#quit1:hover {
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#quit1:pressed {
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1 {
+
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:hover {
+
+    -fx-background-image: url("Image/minimiser.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:pressed {
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+#SearchFriend{
+
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-background-color: white;
+}
+#textInput{
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 28px 28px;
+    -fx-background-position: 10px 8px;
+    -fx-background-image: url("Image/search.png");
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(180,180,180);
+
+}
+#textInput:hover,#textInput:focused{
+    -fx-border-color: rgb(150,150,150);
+}
+#search{
+
+    -fx-background-color:lightgray;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+#search:hover
+{
+    -fx-background-color:grey;
+    -fx-cursor: hand;
+}
+#search:pressed{
+    -fx-background-color:lightgrey;
+    -fx-cursor: hand;
+}
+#friendList{
+    -fx-background-color: transparent;
+}
+#friendList .list-cell {
+    -fx-background-color: transparent;
+}
+#friendList .list-cell:pressed{
+    -fx-background-color: rgb(200,200,200);
+    -fx-text-fill: white;
+    -fx-font-family: "微软雅黑";
+    -fx-font-weight: bold;
+}
+#friendList .list-cell:selected{
+
+    -fx-background-color:  rgb(200,200,200);
+    -fx-text-fill: white;
+    -fx-font-family: "微软雅黑";
+    -fx-font-weight: bold;
+
+
+}
+.head,.head:hover,.head:pressed{
+
+    -fx-background-radius: 30px;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 56px 56px;
+    -fx-background-color: transparent;
+    -fx-background-image: url("Image/head/head10.jpg");
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-radius: 30px;
+    -fx-border-color:transparent;
+
+}
+#background{
+    -fx-background-image: url("Image/background2.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 620px 420px;
+}
+.ListItem{
+    -fx-background-radius: 0px;
+}
+.add {
+    -fx-background-image: url("Image/add.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+.add:hover {
+    -fx-background-image: url("Image/add1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+.add:pressed {
+    -fx-background-image: url("Image/add.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+
+
+
+.scroll-bar:horizontal,.scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.increment-button,.decrement-button{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.scroll-bar:horizontal .track,.scroll-bar:vertical .track{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color:transparent;
+
+}
+.scroll-bar:horizontal .thumb,.scroll-bar:vertical .thumb{
+
+    -fx-background-color: rgb(180,180,180);
+    -fx-background-radius:5px;
+
+}
+.scroll-bar:horizontal:hover .track,.scroll-bar:vertical:hover .track,.scroll-bar:horizontal:pressed .track,.scroll-bar:vertical:pressed .track
+{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color:transparent;
+
+}
+.scroll-bar:horizontal:hover .thumb,.scroll-bar:vertical:hover .thumb{
+
+    -fx-background-color: rgb(150,150,150);
+    -fx-background-radius:5px;
+
+}
+.scroll-bar:horizontal:pressed .thumb,.scroll-bar:vertical:pressed .thumb{
+
+    -fx-background-color: rgb(150,150,150);
+    -fx-background-radius:5px;
+
+}
+
+.increment-button:hover,.decrement-button:hover,.increment-button:pressed,.decrement-button:pressed{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.increment-arrow, .decrement-arrow{
+
+    -fx-shape: " ";
+    -fx-padding: 0px;
+
+}

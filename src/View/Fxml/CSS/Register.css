@@ -1,0 +1,200 @@
+#back
+{
+    -fx-background-color:deepskyblue;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+#back:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#back:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}
+#register{
+    -fx-background-color:deepskyblue;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+
+}
+#register:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#register:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}
+#ChooseHead
+{
+    -fx-background-color:gray;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+#ChooseHead:hover
+{
+    -fx-background-color:darkgray;
+    -fx-cursor: hand;
+}
+#ChooseHead:pressed
+{
+    -fx-background-color:darkgrey;
+    -fx-cursor: hand;
+}
+#account,#name,#password,#rePassword,#phone,#codeText
+{
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(200,200,200);
+}
+#account{
+
+    -fx-background-image: url("Image/user.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#codeText{
+    -fx-background-image: url("Image/code.png");
+        -fx-background-repeat: no-repeat;
+        -fx-background-position: 8px center;
+}
+#codeText:hover,#codeText:focused{
+    -fx-background-image: url("Image/code1.png");
+    -fx-background-radius: 20px;
+        -fx-background-color: white;
+        -fx-border-radius: 20px;
+        -fx-border-color: rgb(160,160,160);
+        -fx-background-repeat: no-repeat;
+        -fx-background-position: 8px center;
+}
+#code{
+    -fx-background-color:#f0ffff;
+}
+#code:hover{
+    -fx-background-color:aqua;
+    -fx-cursor:hand;
+}
+#code:pressed{
+    -fx-background-color:#f0ffff;
+    -fx-cursor: hand;
+}
+#name{
+
+    -fx-background-image: url("Image/name.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#birthday
+{
+    -fx-background-image: url("Image/birthday.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: white;
+    -fx-border-color: rgb(200,200,200);
+    -fx-background-position: 5px center;
+}
+#password
+{
+
+    -fx-background-image: url("Image/password.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#rePassword
+{
+
+    -fx-background-image: url("Image/password.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#phone{
+    -fx-background-image: url("Image/phone.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 8px center;
+}
+#account:hover,#name:hover,#age:hover,#password:hover,#rePassword:hover,#phone:hover
+{
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(160,160,160);
+}
+#account:focused,#name:focused,#age:focused,#password:focused,#rePassword:focused,#phone:focused
+{
+
+    -fx-background-radius: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 20px;
+    -fx-border-color: rgb(160,160,160);
+
+}
+#Register
+{
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgb(180,180,180);
+    -fx-background-color: white;
+}
+#quit1{
+    -fx-background-image: url("Image/quit2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#quit1:hover
+{
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#quit1:pressed
+{
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#minimiser1{
+
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#minimiser1:hover{
+
+    -fx-background-image: url("Image/minimiser.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#minimiser1:pressed{
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255,255,255,0);
+    -fx-cursor: hand;
+}
+#HeadPortrait,#HeadPortrait:hover,#HeadPortrait:pressed
+{
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 100px;
+    -fx-border-radius: 100px;
+    -fx-background-size: 200px 200px;
+    -fx-background-color:transparent;
+    -fx-background-image: url("Image/head/head10.jpg");
+    -fx-background-position: center center;
+}

@@ -1,0 +1,133 @@
+#quit1 {
+    -fx-background-image: url("Image/quit2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#quit1:hover {
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#quit1:pressed {
+    -fx-background-image: url("Image/quit1.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1 {
+
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:hover {
+
+    -fx-background-image: url("Image/minimiser.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+
+#minimiser1:pressed {
+    -fx-background-image: url("Image/minimiser2.png");
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-cursor: hand;
+}
+#HeadPortrait{
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-border-color: rgb(180, 180, 180);
+    -fx-background-color: white;
+}
+
+
+#head1,#head2,#head3,#head4,#head5,#head6,#head7,#head8,#head9,#head10{
+
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-color:transparent;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-background-size: 100px 100px;
+    -fx-background-position: center center;
+}
+#head1{
+     -fx-background-image: url("Image/head/head1.jpg");
+ }
+#head2{
+    -fx-background-image: url("Image/head/head2.jpg");
+}
+#head3{
+    -fx-background-image: url("Image/head/head3.jpg");
+}
+#head4{
+    -fx-background-image: url("Image/head/head4.jpg");
+}
+#head5{
+    -fx-background-image: url("Image/head/head5.jpg");
+}
+#head6{
+    -fx-background-image: url("Image/head/head6.jpg");
+}
+#head7{
+    -fx-background-image: url("Image/head/head7.jpg");
+}
+#head8{
+    -fx-background-image: url("Image/head/head8.jpg");
+}
+#head9{
+    -fx-background-image: url("Image/head/head9.jpg");
+}
+#head10{
+    -fx-background-image: url("Image/head/head10.jpg");
+}
+#head1:hover,#head2:hover,#head3:hover,#head4:hover,#head5:hover,#head6:hover,#head7:hover,#head8:hover,#head9:hover,#head10:hover{
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-color:transparent;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-background-size: 100px 100px;
+    -fx-background-position: center center;
+}
+#head1:focused,#head2:focused,#head3:focused,#head4:focused,#head5:focused,#head6:focused,#head7:focused,#head8:focused,#head9:focused,#head10:focused{
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-color:transparent;
+    -fx-background-radius: 25px;
+    -fx-border-radius: 25px;
+    -fx-background-size: 100px 100px;
+    -fx-background-position: center center;
+}
+#submit{
+
+    -fx-background-color: mediumorchid;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+
+}
+#submit:hover
+{
+    -fx-background-color: plum;
+    -fx-cursor: hand;
+}
+#submit:pressed
+{
+    -fx-background-color: mediumorchid;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="background" prefHeight="597.0" prefWidth="320.0" stylesheets="@CSS/FriendList.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="setting" layoutX="1.0" layoutY="561.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="37.0" />
+      <Button id="addFriend" layoutX="48.0" layoutY="561.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="37.0" />
+      <Pane id="Me" prefHeight="168.0" prefWidth="333.0">
+         <children>
+            <Button id="myHead" layoutX="14.0" layoutY="25.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="82.0" />
+            <Label id="myAccount" layoutX="100.0" layoutY="36.0" prefHeight="39.0" prefWidth="134.0" text="sunny">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label id="myLabel" layoutX="100.0" layoutY="70.0" prefHeight="34.0" prefWidth="202.0" text="原谅我可好" />
+            <Button id="quit" layoutX="282.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+            <Button id="mini" layoutX="244.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+            <TextField id="search" layoutY="140.0" prefHeight="28.0" prefWidth="333.0" promptText="搜索">
+               <padding>
+                  <Insets left="35.0" />
+               </padding>
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <Button id="quit0" layoutX="92.0" layoutY="561.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="37.0" />
+      <Pane layoutX="1.0" layoutY="172.0" prefHeight="389.0" prefWidth="331.0">
+         <children>
+            <Line endX="230.0" layoutX="101.0" layoutY="37.0" startX="-100.0" stroke="#d0b7b7" strokeWidth="0.5" />
+            <Button id="tabMessage" mnemonicParsing="false" prefHeight="36.0" prefWidth="105.0" text="消息" />
+            <Button id="tabList" layoutX="103.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="113.0" text="联系人" />
+            <Button id="tabTrend" layoutX="216.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="113.0" text="动态" />
+            <Accordion layoutX="1.0" layoutY="38.0" />
+            <Line endX="230.0" layoutX="100.0" layoutY="394.0" opacity="0.93" startX="-100.0" stroke="#bfa4a4" strokeWidth="0.5" />
+            <ListView id="FriendList" layoutX="-1.0" layoutY="36.0" prefHeight="357.0" prefWidth="333.0" />
+            <ListView id="message" layoutX="1.0" layoutY="36.0" prefHeight="357.0" prefWidth="331.0" />
+            <Line id="messageLine" endX="-10.0" layoutX="105.0" layoutY="34.0" startX="-90.0" stroke="#e6f5d8" strokeWidth="2.0" />
+            <Line id="ListLine" endX="-10.0" layoutX="210.0" layoutY="34.0" startX="-90.0" stroke="#e6f5d8" strokeWidth="2.0" visible="false" />
+            <Line id="TrendLine" endX="-10.0" layoutX="323.0" layoutY="34.0" startX="-90.0" stroke="#e6f5d8" strokeWidth="2.0" visible="false" />
+         </children></Pane>
+   </children>
+</AnchorPane>

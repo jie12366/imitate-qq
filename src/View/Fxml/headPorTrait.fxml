@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="515.0" prefWidth="958.0" stylesheets="@CSS/HeadPortrait.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="head1" layoutX="87.0" layoutY="84.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="104.0" />
+      <RadioButton id="one" layoutX="89.0" layoutY="226.0" mnemonicParsing="false" text="千与千寻" />
+      <RadioButton id="five" layoutX="827.0" layoutY="226.0" mnemonicParsing="false" text="阿狸和桃子" />
+      <RadioButton id="four" layoutX="675.0" layoutY="226.0" mnemonicParsing="false" text="阿狸" />
+      <RadioButton id="three" layoutX="481.0" layoutY="226.0" mnemonicParsing="false" text="皮卡丘" />
+      <RadioButton id="two" layoutX="284.0" layoutY="226.0" mnemonicParsing="false" text="要抱抱" />
+      <RadioButton id="eight" layoutX="473.0" layoutY="403.0" mnemonicParsing="false" text="动漫女孩" />
+      <RadioButton id="nine" layoutX="675.0" layoutY="403.0" mnemonicParsing="false" text="阿狸" />
+      <RadioButton id="six" layoutX="100.0" layoutY="403.0" mnemonicParsing="false" text="呆萌" />
+      <RadioButton id="ten" layoutX="838.0" layoutY="403.0" mnemonicParsing="false" text="阿狸" />
+      <RadioButton id="seven" layoutX="284.0" layoutY="403.0" mnemonicParsing="false" text="小姐姐" />
+      <Button id="head2" layoutX="282.0" layoutY="84.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head5" layoutX="825.0" layoutY="84.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="104.0" />
+      <Button id="head4" layoutX="658.0" layoutY="84.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head3" layoutX="480.0" layoutY="84.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head8" layoutX="473.0" layoutY="275.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head7" layoutX="282.0" layoutY="275.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head6" layoutX="90.0" layoutY="275.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head10" layoutX="827.0" layoutY="275.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <Button id="head9" layoutX="664.0" layoutY="275.0" mnemonicParsing="false" prefHeight="98.0" prefWidth="101.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-177.0" layoutY="-52.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="53.0" prefWidth="233.0" text="Head portrait" textFill="#22e1a4">
+         <font>
+            <Font name="Forte" size="35.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.42" topOpacity="0.75" />
+         </effect>
+      </Label>
+      <Button id="submit" fx:id="submit" layoutX="845.0" layoutY="461.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="104.0" text="确定" textFill="WHITE" />
+   </children>
+</AnchorPane>

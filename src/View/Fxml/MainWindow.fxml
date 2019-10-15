@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="567.0" prefWidth="638.0" stylesheets="@CSS/MianWindow.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView id="ChatList" layoutY="55.0" prefHeight="389.0" prefWidth="638.0" />
+      <TextField id="input" layoutX="3.0" layoutY="443.0" prefHeight="131.0" prefWidth="634.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets top="-25.0" />
+         </padding>
+      </TextField>
+      <Pane id="top_background" prefHeight="55.0" prefWidth="638.0">
+         <children>
+            <Button id="friendMore" layoutX="233.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="142.0" />
+            <Button id="minimiser1" layoutX="558.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="37.0" />
+            <Button id="quit1" layoutX="595.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+         </children>
+      </Pane>
+      <Button id="quit2" layoutX="464.0" layoutY="530.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="74.0" text="关闭" />
+      <Button id="send" layoutX="550.0" layoutY="530.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="74.0" text="发送" />
+      <Button id="emoji" layoutX="3.0" layoutY="443.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+      <Button id="file" layoutX="40.0" layoutY="443.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+      <Button id="image" layoutX="77.0" layoutY="443.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+      <Button id="dou" layoutX="114.0" layoutY="443.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+      <Line endX="528.0" layoutX="108.0" layoutY="444.0" startX="-105.0" stroke="#977f7f" strokeWidth="0.5" />
+   </children>
+</AnchorPane>

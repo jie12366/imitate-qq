@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="back" prefHeight="310.0" prefWidth="485.0" stylesheets="@CSS/Apply.css" xmlns="http://javafx.com/javafx/8" >
+   <children>
+      <Button id="head" layoutX="23.0" layoutY="59.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="91.0" />
+      <Label id="nickname" layoutX="23.0" layoutY="163.0" prefHeight="24.0" prefWidth="91.0" text="sunny" />
+      <Label id="age" layoutX="41.0" layoutY="211.0" prefHeight="24.0" prefWidth="54.0" text="18岁" />
+      <Label layoutX="139.0" layoutY="27.0" prefHeight="24.0" prefWidth="220.0" text="请输入验证信息：" />
+      <TextArea id="message" layoutX="139.0" layoutY="59.0" prefHeight="164.0" prefWidth="322.0" text="你好,我是,,," />
+      <Button id="submit" layoutX="392.0" layoutY="260.0" mnemonicParsing="false" text="发送" />
+      <Button id="cancel" layoutX="300.0" layoutY="260.0" mnemonicParsing="false" text="取消" />
+   </children>
+</AnchorPane>

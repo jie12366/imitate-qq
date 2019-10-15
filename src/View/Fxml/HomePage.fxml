@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="Homepage" prefHeight="543.0" prefWidth="663.0" stylesheets="@CSS/Homepage.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="background" prefHeight="292.0" prefWidth="672.0">
+         <children>
+            <Button id="mini" layoutX="598.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+            <Button id="close" layoutX="635.0" layoutY="1.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="37.0" />
+         </children>
+      </Pane>
+      <Button id="alter" layoutX="624.0" layoutY="308.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="37.0" />
+      <TextField id="phone" editable="false" layoutX="375.0" layoutY="482.0" prefHeight="43.0" prefWidth="236.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets left="70.0" />
+         </padding>
+      </TextField>
+      <TextField id="address" editable="false" layoutX="375.0" layoutY="438.0" prefHeight="43.0" prefWidth="276.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets left="70.0" />
+         </padding>
+      </TextField>
+      <TextField id="account" editable="false" layoutX="375.0" layoutY="305.0" prefHeight="43.0" prefWidth="249.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets left="70.0" />
+         </padding>
+      </TextField>
+      <Button id="submit" layoutX="599.0" layoutY="504.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="62.0" text="完成" />
+      <TextField id="user" editable="false" layoutX="375.0" layoutY="348.0" prefHeight="43.0" prefWidth="146.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets left="70.0" />
+         </padding>
+      </TextField>
+      <TextField id="birth" editable="false" layoutX="375.0" layoutY="396.0" prefHeight="43.0" prefWidth="111.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <padding>
+            <Insets left="70.0" />
+         </padding>
+      </TextField>
+      <TextField id="sex" editable="false" layoutX="521.0" layoutY="348.0" prefHeight="43.0" prefWidth="62.0" />
+      <Pane id="Me" layoutY="291.0" prefHeight="253.0" prefWidth="365.0">
+         <children>
+            <TextField id="label" layoutX="35.0" layoutY="161.0" prefHeight="43.0" prefWidth="295.0" promptText="随便说点什么吧" />
+            <Button id="head" layoutX="48.0" layoutY="56.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="83.0" />
+            <TextField id="nickname" editable="false" layoutX="146.0" layoutY="68.0" prefHeight="36.0" prefWidth="127.0" text="Sunny" />
+         </children>
+      </Pane>
+      <TextField id="age" editable="false" layoutX="500.0" layoutY="396.0" prefHeight="43.0" prefWidth="127.0" />
+   </children>
+</AnchorPane>

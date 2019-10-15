@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="back" prefHeight="262.0" prefWidth="422.0" stylesheets="@CSS/ApplyAdd.css" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Button id="head" layoutX="24.0" layoutY="39.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="91.0" />
+      <Label id="nickname" layoutX="26.0" layoutY="160.0" prefHeight="33.0" prefWidth="101.0" text="sunny" />
+      <Label id="age" layoutX="42.0" layoutY="207.0" text="19岁" />
+      <Label layoutX="171.0" layoutY="27.0" prefHeight="24.0" prefWidth="132.0" text="验证信息：" />
+      <Label id="message" layoutX="171.0" layoutY="57.0" prefHeight="47.0" prefWidth="228.0" text="你好,我是,,," />
+      <Label layoutX="171.0" layoutY="112.0" prefHeight="31.0" prefWidth="46.0" text="备注:" />
+      <TextField id="remark" layoutX="237.0" layoutY="112.0" prefHeight="36.0" prefWidth="145.0" />
+      <Label layoutX="171.0" layoutY="160.0" prefHeight="31.0" prefWidth="46.0" text="分组:" />
+      <ComboBox id="group" layoutX="237.0" layoutY="160.0" prefHeight="36.0" prefWidth="145.0" promptText="我的好友" />
+      <Button id="cancel" layoutX="225.0" layoutY="219.0" mnemonicParsing="false" text="拒绝" />
+      <Button id="submit" layoutX="322.0" layoutY="219.0" mnemonicParsing="false" text="接受" />
+   </children>
+</AnchorPane>

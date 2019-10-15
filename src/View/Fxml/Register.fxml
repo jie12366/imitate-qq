@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="611.0" prefWidth="600.0" stylesheets="@CSS/Register.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="264.0" layoutY="20.0" prefHeight="62.0" prefWidth="282.0" text="Personal Information:">
+         <font>
+            <Font name="Segoe Script" size="21.0" />
+         </font>
+      </Label>
+      <TextField id="account" layoutX="290.0" layoutY="102.0" prefHeight="42.0" prefWidth="247.0" promptText="请输入昵称" style="-fx-padding-left: 30;">
+         <padding>
+            <Insets left="30.0" />
+         </padding></TextField>
+      <TextField id="name" layoutX="291.0" layoutY="172.0" prefHeight="42.0" prefWidth="247.0" promptText="请输入姓名">
+         <padding>
+            <Insets left="30.0" />
+         </padding></TextField>
+      <RadioButton id="man" layoutX="325.0" layoutY="400.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="50.0" selected="true" text="男" />
+      <RadioButton id="women" layoutX="437.0" layoutY="400.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="50.0" text="女" />
+      <TextField id="phone" layoutX="26.0" layoutY="466.0" prefHeight="42.0" prefWidth="203.0" promptText="请输入手机号">
+         <padding>
+            <Insets left="30.0" />
+         </padding></TextField>
+      <Button id="ChooseHead" layoutX="51.0" layoutY="320.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="126.0" text="选择头像" textFill="WHITE" />
+      <Button id="back" layoutX="102.0" layoutY="557.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" text="取消" />
+      <Button id="register" layoutX="359.0" layoutY="557.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="78.0" text="注册" />
+       <Label id="accountError" layoutX="318.0" layoutY="144.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+           <font>
+               <Font size="12.0" />
+           </font>
+       </Label>
+       <Label id="nameError" layoutX="316.0" layoutY="214.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+           <font>
+               <Font size="12.0" />
+           </font>
+       </Label>
+       <Label id="passwordError" layoutX="319.0" layoutY="284.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+           <font>
+               <Font size="12.0" />
+           </font>
+       </Label>
+       <Label id="rePasswordError" layoutX="316.0" layoutY="362.0" prefHeight="20.0" prefWidth="216.0" textFill="RED">
+           <font>
+               <Font size="12.0" />
+           </font>
+       </Label>
+       <Label id="phoneError" layoutX="51.0" layoutY="508.0" prefHeight="20.0" prefWidth="179.0" textFill="RED">
+           <font>
+               <Font size="12.0" />
+           </font>
+       </Label>
+      <PasswordField id="password" layoutX="292.0" layoutY="242.0" prefHeight="42.0" prefWidth="247.0" promptText="请输入密码">
+         <padding>
+            <Insets left="30.0" />
+         </padding></PasswordField>
+      <PasswordField id="rePassword" layoutX="292.0" layoutY="320.0" prefHeight="42.0" prefWidth="247.0" promptText="请确认密码">
+         <padding>
+            <Insets left="30.0" />
+         </padding></PasswordField>
+      <Button id="HeadPortrait" layoutX="26.0" layoutY="102.0" mnemonicParsing="false" prefHeight="199.0" prefWidth="203.0" />
+      <TextField id="codeText" layoutX="287.0" layoutY="469.0" prefHeight="36.0" prefWidth="144.0" promptText="验证码">
+         <padding>
+            <Insets left="30.0" />
+         </padding>
+      </TextField>
+      <Button id="code" layoutX="435.0" layoutY="469.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="104.0" text="获取验证码" textFill="#4c0768">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <DatePicker id="birthday" layoutX="26.0" layoutY="394.0" prefHeight="36.0" prefWidth="203.0" promptText="请选择生日">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </DatePicker>
+      <Label id="codeError" layoutX="300.0" layoutY="508.0" prefHeight="20.0" prefWidth="179.0" textFill="RED">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <Label id="birthError" layoutX="51.0" layoutY="432.0" prefHeight="20.0" prefWidth="179.0" textFill="RED">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

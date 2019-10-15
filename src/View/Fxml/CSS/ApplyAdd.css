@@ -1,0 +1,58 @@
+#head,#head:hover,#head:pressed,#head:focused{
+
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 65px;
+    -fx-border-radius: 65px;
+    -fx-background-size: 91px 91px;
+    -fx-background-image: url("Image/head/head10.jpg");
+    -fx-background-position: center center;
+    -fx-background-color:transparent;
+}
+#nickname{
+    -fx-background-color:transparent;
+    -fx-font-size:25px;
+}
+#message{
+    -fx-background-color:transparent;
+}
+#back{
+    -fx-background-color:white;
+}
+
+#remark,#group{
+    -fx-background-color:transparent;
+}
+
+#cancel
+{
+    -fx-background-color:deepskyblue;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+#cancel:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#cancel:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}
+#submit{
+    -fx-background-color:deepskyblue;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+
+}
+#submit:hover
+{
+    -fx-background-color:aqua;
+    -fx-cursor: hand;
+}
+#submit:pressed
+{
+    -fx-background-color:darkturquoise;
+    -fx-cursor: hand;
+}
