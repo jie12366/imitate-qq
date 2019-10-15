@@ -26,6 +26,7 @@
 ### 导入项目
  - 下载一个JavaFX scene Builder，附上链接。
  链接：https://pan.baidu.com/s/1b__UVMt82zYK9MrwypTvgQ
+
 提取码：hd4j。将JavaFX配置到idea中(具体操作自己Google)
  - 从github克隆项目到本地
 ```
@@ -33,11 +34,13 @@ git clone https://github.com/jie12366/imitate-qq.git
 ```
  - 新建一个JavaFX项目，路径指向刚刚clone下来的项目地址。将
  自动生成的sample文件夹删掉。并在Model.database下配置自己的数据库信息。
- 将jar包导入(都放在了jar文件夹)。
+ 短信服务的话，自己想要就去买一个，不想要就直接打印在控制台
+
+ - 将jar包导入(都放在了jar文件夹)。
 
  ![image.png](http://cdn.jie12366.xyz/FnLhyM-hRzOCG_ytYvirHKW80wtb)
 
 ### 项目运行
 右键Main.Mian运行项目，没有报错并出现类QQ登录界面则成功。
 
-如果该项目对你有帮助，欢迎fork与star哦。
+**如果该项目对你有帮助，欢迎fork与star哦。**
