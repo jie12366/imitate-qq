@@ -7,10 +7,13 @@ import java.sql.*;
  */
 
 public class Database {
-    private String url = "jdbc:mysql://120.78.162.121:3306/wechat?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true";
+    /**
+     * 数据库连接地址，记得把host和port改为自己的
+     */
+    private String url = "jdbc:mysql://host:port/wechat?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true";
     private final static String driver = "com.mysql.jdbc.Driver";
-    private String userName = "root"; //数据库账号名
-    private String password = "root"; //数据库密码
+    private String userName = "username"; //数据库账号名
+    private String password = "pwd"; //数据库密码
     private Connection connection;
     private PreparedStatement preparedStatement; //动态查询
 

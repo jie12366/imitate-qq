@@ -15,7 +15,7 @@ public class GetMessageCode {
         String host = "https://smsapi.api51.cn";
         String path = "/code/";
         String method = "GET";
-        String appcode = "ec92833b98374a6e847ecf7793b76973";
+        String appcode = "ec92833b98374a6e847ecf7793b76973"; // 自己去申请一个验证码服务，我的额度已经用完了。
         Map<String, String> headers = new HashMap();
         //最后在header中的格式(中间是英文空格)为Authorization:APPCODE 83359fd73fe94948385f570e3c139105
         headers.put("Authorization", "APPCODE " + appcode);
