@@ -13,13 +13,18 @@
 ## 技术栈
  - Java
  - JavaFx
+ - MySQL
  - css
 
 ## 详细介绍
 详情请见博客：[Java实现仿QQ即时聊天](https://blog.csdn.net/qq_40663357/article/details/85465652)  
 服务端地址：[Java仿QQ服务端](https://github.com/jie12366/imitate-qq-server)
 ## 项目准备
-### 准备数据库
+### 项目工具
+ - IDEA
+ - Navicat
+ - JavaFX scene Builder
+### 准备数据库(MySQL)
  - 创建数据库wechat
  - 使用Navicat或其他MySQL可视化工具运行database路径下的SQL文件
 
