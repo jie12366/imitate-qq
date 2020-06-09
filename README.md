@@ -1,5 +1,5 @@
 # 广告广告
-字节跳动广告系统下的穿山甲平台大量招人，有兴趣的直接发简历到我邮箱：xiongyijie.monkjay@bytedance.com。
+字节跳动广告系统下的穿山甲平台大量招人，有兴趣的直接发简历到我邮箱：xiongyijie.monkjay@bytedance.com。也可以加我 QQ：2263509062
 ![ddd](https://user-gold-cdn.xitu.io/2020/6/9/17296d23354015c8?w=1202&h=655&f=png&s=811332)
 
 # 基于javaFX的仿QQ桌面软件
