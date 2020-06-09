@@ -1,6 +1,6 @@
 # 广告广告
 字节跳动广告系统下的穿山甲平台大量招人，有兴趣的直接发简历到我邮箱：xiongyijie.monkjay@bytedance.com。
-[pangle](https://bytedance.feishu.cn/9d394042-d440-4dd3-81f7-450edbe2884f)
+![ddd](https://user-gold-cdn.xitu.io/2020/6/9/17296d23354015c8?w=1202&h=655&f=png&s=811332)
 
 # 基于javaFX的仿QQ桌面软件
 > 这是一个模仿QQ的即时聊天软件，可以通过运行在本地的服务
